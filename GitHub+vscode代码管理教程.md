@@ -19,5 +19,20 @@
 * branch    分支，在多人管理中创建不同分支同时工作，在进行merge进行合并
 * merge     分支合并，字面意思（通常需要解决冲突）
 
+## 2.vscode中Git Graph插件
+这个插件可以可视化仓库各分支间的关系，非常有用
+先下载该插件![图片](resources\img_gitgraph.png)
+节点图打开方式，两种方法，建议直接底部打开
+![图片](resources\img_gitgraph2.jpg)
+节点图如下图所示，不同颜色代表不同分支
+下图中双击写错了，单击就可以了
+![图片](resources\img_gitgraph3.jpg)
+点击查看某个commit的信息
+![图片](resources\img_gitgraph4.jpg)
 
 ## 2.代码版本回退
+
+## 3.创建与合并分支
+
+## 4.多人项目管理
+

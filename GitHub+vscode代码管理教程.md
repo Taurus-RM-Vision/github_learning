@@ -5,4 +5,4 @@
     <p>文档教程： <a href="https://docs.qq.com/pdf/DZE15UXJVVkxzRlF2" title="欢迎访问逐浪软件官网">群文档汇总中【内部】github-desktop使用说明</a>.</p>
 2. 安装vscode并安装插件Git Graph
 
-
+本教程将会讲解

@@ -52,7 +52,9 @@
 ### 3.2切换分支
 1. Git Graph双击该分支
 2. GitHub Desktop中菜单栏current branch -> 选择其他分支
-3. 23456
-4. 789456
+### 3.3合并分支
+示例：让这里dev_sgh合并到main
+1.先双击main切换到该分支
+2.右键dev_sgh选择合并到当前分支
 ## 4.多人项目管理
 

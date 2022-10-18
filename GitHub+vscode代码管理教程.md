@@ -31,6 +31,7 @@
 ![图片](resources\img_gitgraph4.jpg)
 
 ## 2.代码版本回退
+change5
 注意：进行代码回退前先把当前代码commit一次
 按以下步骤操作，界面右边是对应这次commit所作的更改，左边是他的更改前代码，右边是更改后的
 ![图片](resources\img_revert1.jpg)

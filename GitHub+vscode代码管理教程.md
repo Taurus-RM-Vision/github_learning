@@ -32,13 +32,25 @@
 
 ## 2.代码版本回退
 注意：进行代码回退前先把当前代码commit一次
-按以下步骤操作，界面右边是对应这次commit所作的更改，左边是他的更改前代码，右边是更改后的
+
+按下图步骤操作进行revert
+注意：revert操作为回到这次更改前的状态
 ![图片](resources\img_revert1.jpg)
-点击恢复变化后会出现报错，不要害怕，这是因为回退的代码和你当前代码有冲突需要解决，弹窗直接close后打开vscode
-
-change2
-111
+界面右边是对应这次commit所作的更改，左边是他的更改前代码，右边是更改后的代码
+上面操作同样可以在GitGraph插件进行（与上面等效）
+![图片](resources\img_revert3.jpg)
+点击revert后可能会出现报错，不要害怕，这是因为回退的代码和你当前代码有冲突需要解决，关闭弹窗后打开vscode
+下图中绿色部分为冲突部分，要仔细看需要哪一部分，右下角使用合并编辑器更清晰，右上角上下箭头可以查看下一个冲突
+![图片](resources\img_revert2.jpg)
+解决完冲突后就回退完成啦！
 ## 3.创建与合并分支
-
+### 3.1创建分支
+创建分支的方法有好几种
+1. Git Graph中在任意节点处右键 -> creat branch -> 输入分支名称（推荐）
+2. GitHub Desktop中菜单栏Branch -> new branch -> 输入分支名
+3. GitHub Desktop中History -> 选择任意节点右键 -> creat branch -> 输入分支名
+### 3.2切换分支
+1. Git Graph双击该分支
+2. GitHub Desktop中菜单栏current branch -> 选择其他分支
 ## 4.多人项目管理
 

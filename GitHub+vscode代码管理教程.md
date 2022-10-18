@@ -26,6 +26,7 @@
 ![图片](resources\img_gitgraph2.jpg)
 节点图如下图所示，不同颜色代表不同分支
 下图中双击写错了，单击就可以了
+通过这个节点图可以看到仓库的结构，有多少分支，别人的分支做了什么更改，方便队伍进度管理和代码备份
 ![图片](resources\img_gitgraph3.jpg)
 点击查看某个commit的信息
 ![图片](resources\img_gitgraph4.jpg)

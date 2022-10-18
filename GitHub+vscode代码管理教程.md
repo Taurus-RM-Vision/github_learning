@@ -40,7 +40,7 @@
 可以在小面解决解决冲突，也可以打开右下角合并编辑器可以清楚看到结果
 ![图片](resources\img_revert2.jpg)
 change3
-change4
+change5
 ## 3.创建与合并分支
 
 ## 4.多人项目管理

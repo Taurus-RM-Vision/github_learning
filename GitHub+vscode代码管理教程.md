@@ -52,5 +52,6 @@
 ### 3.2切换分支
 1. Git Graph双击该分支
 2. GitHub Desktop中菜单栏current branch -> 选择其他分支
+3. 1
 ## 4.多人项目管理
 

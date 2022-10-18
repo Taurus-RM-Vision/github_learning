@@ -1,7 +1,7 @@
 # GitHub+Vscode代码管理教程
 预备知识：
 1. 安装GitHub Desktop并学习基础clone和push代码
-   <p>视频教程： <a href="https://www.bilibili.com/video/BV13W411U7HY/?share_source=weixin_web&share_times=1&vd_source=b91afc82e63b14bfbf720e51d03b61b0" title="欢迎访问逐浪软件官网">【教程】使用GitHub Desktop管理你的项目</a>.</p>
+    <p>视频教程： <a href="https://www.bilibili.com/video/BV13W411U7HY/?share_source=weixin_web&share_times=1&vd_source=b91afc82e63b14bfbf720e51d03b61b0" title="欢迎访问逐浪软件官网">【教程】使用GitHub Desktop管理你的项目</a>.</p>
     <p>文档教程： <a href="https://docs.qq.com/pdf/DZE15UXJVVkxzRlF2" title="欢迎访问逐浪软件官网">群文档汇总中【内部】github-desktop使用说明</a>.</p>
 2. 安装vscode并安装插件Git Graph
 
@@ -17,6 +17,7 @@
 * push  将本地内容推送到远程仓库，推送之后别人才能通过pull或者进去GitHub网站看到你的更改
 * pull  拉取代码，将云端代码更新到本地（通常需要解决冲突）
 * revert    代码回退到某个版本，注意这里是回到这个版本更改前的状态
+<a href="https://blog.csdn.net/qq_36441027/article/details/124032290">代码回退有另一个方法reset，想了解他们的区别点击这里</a>
 * branch    分支，在多人管理中创建不同分支同时工作，在进行merge进行合并
 * merge     分支合并，字面意思（通常需要解决冲突）
 
@@ -61,7 +62,19 @@
 弹窗选择确认
 ![图片](resources\img_merge2.jpg)
 点击确认后可能会出现报错，不要害怕，这是因为合并的代码和你当前代码有冲突需要解决，解决冲突方法和代码回退中同理，解决完所有冲突后既完成合并
+
+## 4.忽略某个文件
+在实际应用中很多文件我们不希望他上云端（比如说编译产生的文件）
+![图片](resources\img_ignore.jpg)
+它会自动生成gitignore文件，如果想进一步了解该文件语法，自己百度或看下面链接
+<a href="https://blog.csdn.net/nyist_zxp/article/details/119887324" title="欢迎访问逐浪软件官网">Git 开发必备 .gitignore 详解！</a>
 ## 4.多人项目管理
 以自动步兵开发为例：
 首先需要有一个稳定能用的主分支
-在做更改或研发前，在当前代码中开辟新的分支（新分支命名需要体现开发的工作，比如改进定位分支命名为dev_location）,在代码debug完成后merge到主分支中，merge的时候需要认真看每一项冲突
+1. 在做更改或研发前，在当前代码中开辟新的分支（新分支命名需要体现开发的工作，比如改进定位分支命名为dev_location）
+2. 完成阶段性（或者完成一部分）任务后将更改commit一下，方便出错回退
+3. 在代码debug完成后，merge到主分支中，merge的时候需要认真看每一项冲突（这一步最好有对机器比较熟悉的人一起来）
+4. 完成合并后最好再测试一次看是否合并出错
+
+## 作业
+clone本仓库到自己电脑，完成上面操作

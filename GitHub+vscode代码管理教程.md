@@ -31,14 +31,11 @@
 ![图片](resources\img_gitgraph4.jpg)
 
 ## 2.代码版本回退
-版本回退有两种方式reset和revert
-
 注意：进行代码回退前先把当前代码commit一次
 按以下步骤操作，界面右边是对应这次commit所作的更改，左边是他的更改前代码，右边是更改后的
 ![图片](resources\img_revert1.jpg)
-点击代码回退后会出现报错，不要害怕，这是因为回退的代码和你当前代码有冲突需要解决，弹窗直接close后打开vscode解决冲突
-可以在小面解决解决冲突，也可以打开右下角合并编辑器可以清楚看到结果
-![图片](resources\img_revert2.jpg)
+点击恢复变化后会出现报错，不要害怕，这是因为回退的代码和你当前代码有冲突需要解决，弹窗直接close后打开vscode
+
 change3
 change5
 ## 3.创建与合并分支
